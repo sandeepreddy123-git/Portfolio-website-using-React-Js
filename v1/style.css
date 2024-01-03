@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  padding: 40px 54px;
+  font-family: "sono";
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "coiny";
+  color: #3f3f46;
+  margin-top: 6px;
+  line-height: 1;
+}
+header {
+  margin-bottom: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fact-form {
+  background-color: #e5e5e5;
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.fact {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: "sono";
+  color: #3f3f46;
+  background-color: #e5e5e5;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 16px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 48px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 10;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "coiny";
+  color: #3f3f46;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 100px;
+}
+
+ul {
+  list-style: none;
+}
+.source {
+  color: rgb(29, 91, 225);
+  transition: 0.4s;
+}
+
+.source:hover {
+  color: rgb(43, 188, 43);
+}
+
+.btn {
+  border: none;
+  font-family: "coiny";
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 10px 13px;
+  background-image: linear-gradient(135deg, #3b82f6, #eab308);
+  color: inherit;
+  transition: 0.3s;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px 17px;
+}
+
+.btn-all {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.btn-cat {
+  width: 100%;
+  background-image: none;
+}
+
+.cat {
+  margin-bottom: 16px;
+}
+
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+
+.fact-form input,
+.fact-form select {
+  background-color: rgb(196, 194, 192);
+  border: none;
+  border-radius: 100px;
+  padding: 16px;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.hidden {
+  display: none !important;
+}

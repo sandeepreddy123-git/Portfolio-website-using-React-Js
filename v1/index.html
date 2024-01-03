@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First React Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="logo.png" width="68" height="68" />
+          <h1>Sandeep Reddy Guthireddy</h1>
+        </div>
+        <button class="btn btn-large btn-open">Enter New Fact</button>
+      </header>
+      <form class="fact-form hidden">
+        <input type="text" placeholder="Enter Fact" />
+        <span>200 characters</span>
+        <input type="text" placeholder="Enter Source" />
+        <select>
+          <option value="cat1">Cat 1</option>
+          <option value="cat1">Cat 2</option>
+          <option value="cat1">Cat 3</option>
+        </select>
+        <button class="btn btn-large">Post</button>
+      </form>
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="cat"><button class="btn btn-all">Mod 1</button></li>
+            <li class="cat">
+              <button class="btn btn-cat" style="background-color: #3b82f6">
+                Mod 1
+              </button>
+            </li>
+            <li class="cat">
+              <button class="btn btn-cat" style="background-color: #16a34a">
+                Mod 2
+              </button>
+            </li>
+          </ul>
+        </aside>
+        <section>
+          <ul class="facts-list">
+            <li>
+              <p class="fact">
+                Sentence 1<a
+                  class="source"
+                  href="www.google.com"
+                  target="_blank"
+                  >(Source)</a
+                >
+                <span class="tag" style="background-color: #3b82f6"
+                  >##Cat 1</span
+                >
+              </p>
+            </li>
+            <li>
+              <p class="fact">
+                Sentence 2<a
+                  class="source"
+                  href="www.google.com"
+                  target="_blank"
+                  >(Source)</a
+                >
+                <span class="tag" style="background-color: #16a34a"
+                  >##Cat 2</span
+                >
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
